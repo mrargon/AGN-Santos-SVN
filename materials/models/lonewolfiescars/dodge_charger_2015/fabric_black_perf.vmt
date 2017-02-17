@@ -1,0 +1,35 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .2 .2 scale 3 3 rotate 0 translate 0 0"
+	"$basetexture" "models/LoneWolfiesCars/shared/skin"
+	"$bumpmap"    "models/LoneWolfiesCars/shared/nfs_alcantara_bump"
+	"$normalmapalphaenvmapmask" 1
+
+	"$nodecal" "1"
+
+	"$phong" "1" 
+	"$phongexponenttexture" "models/LoneWolfiesCars/shared/nfs_alcantara_bump"
+	"$phongboost" "0" 
+	"$phongfresnelranges" "[0.05 0.5 1]" 
+	"$phongexponent" 10
+
+	"$rimlight" "1"
+	"$rimmask" "1"
+	"$rimlightexponent" "3"
+	"$rimlightboost" "0.1"
+
+	"$detail" "models/LoneWolfiesCars/dodge_charger_2015/velvet_perf"
+	"$detailscale" "1"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "0"
+
+	"$colorfix" "{20 20 20}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

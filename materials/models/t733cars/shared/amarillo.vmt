@@ -1,0 +1,16 @@
+vertexlitgeneric
+{
+$baseTexture "models/t733cars/shared/amarillo"
+	"$bumpmap" "models/t733cars/shared/skin_normal"
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+

@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "sentry/shared/black"	
+	"$blendtintbybasealpha" 1
+	"$nocull" "1"
+}

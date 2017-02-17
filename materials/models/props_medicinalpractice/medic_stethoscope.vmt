@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_medicinalpractice/medic_stethoscope.vtf"
+	"$bumpmap" "models\effects\flat_normal" 
+
+	"$phong" "1"
+	"$phongexponent" "7"
+	"$phongboost" "5"
+	"$lightwarptexture" "models/props_medicinalpractice/metal_lightwarp.vtf"	
+	"$phongfresnelranges"	"[.25 .5 4]"
+	"$basemapalphaphongmask" "1"		
+}

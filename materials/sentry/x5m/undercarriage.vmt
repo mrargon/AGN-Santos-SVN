@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/x5m/undercarriage"
+	"$blendtintbybasealpha" 1
+}

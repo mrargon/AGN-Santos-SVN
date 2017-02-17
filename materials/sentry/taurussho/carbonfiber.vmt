@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/taurussho/carbonFiber"
+	"$blendtintbybasealpha" "1"
+}

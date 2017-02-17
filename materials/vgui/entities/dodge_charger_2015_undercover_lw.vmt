@@ -1,0 +1,7 @@
+"UnlitGeneric" 
+{ 
+	"$basetexture"		"vgui/entities/dodge_charger_2015_undercover_lw"
+	"$vertexcolor" 		1 
+	"$vertexalpha" 		1 
+	"$nolod" 			1
+} 

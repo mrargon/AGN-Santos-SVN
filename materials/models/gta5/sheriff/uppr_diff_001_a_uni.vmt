@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/gta5/sheriff/uppr_diff_001_a_uni"
+	"$bumpmap" "models/gta5/sheriff/uppr_normal_001"
+	"$halflambert" 1
+}

@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/17raptor_cop/nodamage"
+	"$bumpmap" "sentry/17raptor_cop/nodamage_bump"
+	"$blendtintbybasealpha" "1"
+    $surfaceprop "metal"
+    $phong "1"
+    $phongexponent "27"
+    $phongboost "5"
+    $phongfresnelranges "[.05 .3 1]"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}

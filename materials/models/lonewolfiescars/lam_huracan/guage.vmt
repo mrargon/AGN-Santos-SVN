@@ -1,0 +1,21 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/lam_huracan/guage"
+	"$bumpmap" "models/lonewolfiescars/shared/skin_nm"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.2 0.2 0.2]"
+	"$blendtintbybasealpha" 0
+	"$normalmapalphaenvmapmask" 1
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+
+}
+

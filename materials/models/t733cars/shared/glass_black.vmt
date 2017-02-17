@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/t733cars/shared/black"
+	"$bumpmap"    "models/t733cars/shared/glass_nm"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongtint" "[1 1 1]"
+	"$phongexponent" 3
+	"$phongfresnelranges" "[0.8 0.8 2]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.5 0.5 0.5]"
+	"$normalmapalphaenvmapmask" 1
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+

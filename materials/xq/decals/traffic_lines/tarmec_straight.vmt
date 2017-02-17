@@ -1,0 +1,13 @@
+// envmaptint_fix
+"LightmappedGeneric"
+{
+	"$basetexture" "xq/decals/traffic_lines\tarmec_straight"
+	"$surfaceprop" "concrete"
+	"%keywords" "traffic"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0 0 0]"
+	$detail "xq/decals/traffic_lines/tarmec_straight"
+	$detailscale 1
+	$detailblendmode 0
+	$detailblendfactor 0.8
+}

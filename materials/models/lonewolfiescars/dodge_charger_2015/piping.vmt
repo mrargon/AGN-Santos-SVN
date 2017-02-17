@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/dodge_charger_2015/piping"
+	"$bumpmap" "models/LoneWolfiesCars/dodge_charger_2015/piping_bump"
+
+	"$alphatest" "1"
+	"$allowalphatocoverage" 1
+	"$nodecal" "1"
+
+	"$phong" "1" 
+	"$phongboost" "0.1" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+
+	"$colorfix" "{30 30 30}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/m4/gar_si2"
+	"$nodecal" "1"
+	"$translucent" "1"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}

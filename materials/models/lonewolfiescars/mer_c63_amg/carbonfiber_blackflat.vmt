@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/carbonfiber"
+	"$bumpmap" "models/LoneWolfiesCars/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongexponent" 5
+	"$phongboost"	0.5
+	"$phongtint" "[0.08 0.08 0.08]"
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$rimlight" 1
+	"$rimlightboost" 0.5
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.02 0.02 0.02]"
+	"$normalmapalphaenvmapmask" 1
+	"$phongfix" "{1 1 1}"
+	"$colorfix" "{150 150 150}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

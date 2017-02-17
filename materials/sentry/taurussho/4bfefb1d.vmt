@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/taurussho/4bfefb1d"
+	"$blendtintbybasealpha" "1"
+	"$bumpmap" "sentry/taurussho/skin_nm"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "0.2" 
+	"$phongfresnelranges" "[.05 .5 0]" 
+	"$phongexponent" 2
+}

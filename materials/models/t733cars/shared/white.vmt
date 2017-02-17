@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 80 80 rotate 0 translate 0 0"
+	"$basetexture" "models/t733cars/shared/white"
+	"$bumpmap" "models/t733cars/shared/white_normal"
+	"$nodecal" "1"
+	"$phong" "0" 
+	"$phongboost" ".15" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 3
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" "3"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

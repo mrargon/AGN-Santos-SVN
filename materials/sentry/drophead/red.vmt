@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/drophead/red"
+	"$bumpmap"    "sentry/shared/glass_nm"
+	"$envmap" env_cubemap
+	"$translucent" 1
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "2.5" 
+	"$phongexponent" "15"
+	"$phongtint" "[1 .25 .25]"
+	"$phongfresnelranges" "[4 1 4]"
+	"$surfaceprop" "Glass"
+	"$envmapFresnel" "1"
+	"$envmaptint" "[.35 .15 .15]"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+ }

@@ -1,0 +1,7 @@
+"UnlitGeneric" 
+{ 
+	"$basetexture"		"vgui/entities/austin_healey_3000_lw"
+	"$vertexcolor" 		1 
+	"$vertexalpha" 		1 
+	"$nolod" 			1
+} 

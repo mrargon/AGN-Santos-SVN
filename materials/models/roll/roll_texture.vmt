@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+"$basetexture" "models/roll/roll_texture.vtf
+"$surfaceprop" "metal_bouncy"
+"$model" 1
+}

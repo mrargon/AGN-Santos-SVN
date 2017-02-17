@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/taurussho/whl"
+	"$bumpmap" "sentry/taurussho/whl_nm"
+    $surfaceprop "metal"
+    $blendtintbybasealpha "1"
+    $envmap "env_cubemap"
+    $envmaptint "[0.05 0.05 0.05]"
+    $envmapcontrast "1"
+    $envmapsaturation ".5"
+    $envmapfresnel "1"
+    $phong "1"
+    $phongexponent "70"
+    $phongboost "10"
+    $phongfresnelranges "[.05 .3 1]"
+
+}

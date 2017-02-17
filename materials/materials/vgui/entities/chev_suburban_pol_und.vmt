@@ -1,0 +1,7 @@
+"UnlitGeneric" 
+{ 
+	"$basetexture" "vgui/entities/chev_suburban_pol_und"
+	"$vertexcolor" 		1 
+	"$vertexalpha" 		1 
+	"$nolod" 			1
+} 

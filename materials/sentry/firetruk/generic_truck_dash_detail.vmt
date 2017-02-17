@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/firetruk/generic_truck_dash_detail"
+	"$bumpmap" "sentry/firetruk/generic_truck_dash_detail_nm"
+    $phong "1"
+    $phongexponent "17"
+    $phongboost ".5"
+    $phongfresnelranges "[.05 .3 1]"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}

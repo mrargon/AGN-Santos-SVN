@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "sentry/firetruk/skin0"
+	"$bumpmap" "sentry/shared/skin_nm"
+    $envmap "env_cubemap"
+    $envmaptint "[0.15 0.15 0.15]"
+    $envmapfresnel "1"
+   "$normalmapalphaenvmapmask" "1"
+    $phong "1"
+    $phongexponent "37"
+    $phongboost ".1"
+    $phongfresnelranges "[.5 .75 .75]"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}

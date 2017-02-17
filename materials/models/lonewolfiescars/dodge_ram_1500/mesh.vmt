@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/dodge_ram_1500/mesh"
+	"$bumpmap" "models/LoneWolfiesCars/dodge_ram_1500/mesh_bump"	
+
+	"$normalmapalphaenvmapmask" 1
+	"$alphatest" "1"
+	"$allowalphatocoverage" 1
+    	"$nodecal" "1"
+	"$halflambert" 1
+
+	"$phong" "1" 
+	"$phongboost" "0.1" 
+	"$phongfresnelranges" "[.34 .4 1]" 
+	"$phongexponent" 85
+
+	"$colorfix" "{120 120 120}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

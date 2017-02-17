@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/swatvan/lables"
+	"$bumpmap" "sentry/shared/skin_nm"
+	"$phong" "1" 
+	"$phongboost" "0.01" 
+	"$translucent" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+	
+ }

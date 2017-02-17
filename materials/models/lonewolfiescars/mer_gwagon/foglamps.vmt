@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/mer_gwagon/foglamps"
+	"$bumpmap" "models/LoneWolfiesCars/shared/skin_nm"
+    	$envmap "env_cubemap"
+    	$envmaptint "[0.007 0.007 0.007]"
+
+    	$phong "1"
+    	$phongexponent "20"
+    	$phongboost "1"
+    	$phongfresnelranges "[ .2 .2 1]"
+	$nocull "1"
+	$nodecal "1"
+
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+

@@ -1,0 +1,31 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/chev_tahoe/skin1"
+	"$bumpmap" "models/LoneWolfiesCars/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongexponent" 100
+	"$phongboost"	1
+	"$phongfresnelranges" "[0.2 0.4 0.5]"
+	"$rimlight" 1
+	"$rimlightexponent" "10"
+	"$rimlightboost" 0.5
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.01 0.01 0.01]"
+	"$detail" "models/LoneWolfiesCars/shared/paint"
+	"$detailscale" "4"
+	"$detailblendfactor" "0.006"
+	"$detailblendmode" "1"
+	"$normalmapalphaenvmapmask" 0
+	"$colorfix" "{200 200 200}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1	$colorfix
+			resultVar	$color
+		}
+	}
+}
+
+

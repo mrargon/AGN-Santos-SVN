@@ -1,0 +1,38 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/lonewolfiescars/props/rims/com_th2"
+	"$bumpmap" "models/lonewolfiescars/shared/skin_nm"
+
+	"$halflambert" 1
+	"$blendtintbybasealpha" 1
+	"$nocull" "1"
+	"$nodecal" "1"
+
+	"$phong" "1" 
+	"$phongboost" "4" 
+	"$phongfresnelranges" "[1 1 1]" 
+	//"$phongtint" "[1.1 0.6 0.1]"
+	"$phongexponent" 10
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.01 0.01 0.01]"
+
+	"$phongfix" "{1 1 1}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1	$color
+			resultVar	$phongtint
+		}
+		Add
+		{
+			srcVar1 $phongfix
+			srcVar2 $phongtint
+			resultVar $phongtint
+		}
+	}
+}
+
+

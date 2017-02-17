@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/abarth/leather2"
+	"$bumpmap" "sentry/abarth/leather2_nm"
+    $phong "1"
+    $phongexponent "14"
+    $phongboost "1"
+    $phongfresnelranges "[.05 .3 1]"
+	"$rimlight"               "1"
+	"$rimlightexponent"       "7"
+	"$rimlightboost"          ".2"	
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}
+

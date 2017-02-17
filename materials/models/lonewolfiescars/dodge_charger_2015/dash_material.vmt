@@ -1,0 +1,33 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .2 .2 scale 6 6 rotate 0 translate 0 0"
+	"$basetexture" "models/LoneWolfiesCars/dodge_charger_2015/dash_material"
+	"$bumpmap" "models/LoneWolfiesCars/shared/skin_paintflakes_bump"
+
+	"$halflambert" 1
+	"$nodecal" "1"
+
+	"$phong" "1" 
+	"$phongboost" "0.4" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 3
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.02 0.02 0.02]"
+	"$normalmapalphaenvmapmask" 1
+
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

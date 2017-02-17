@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/firetruk/firetruck_badges"
+	"$bumpmap" "sentry/firetruk/firetruck_badges_nm"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+    $surfaceprop "metal"
+    $phong "1"
+    $phongexponent "17"
+    $phongboost "5"
+    $phongfresnelranges "[.05 .3 1]"
+	"$envmap" env_cubemap
+	"$envmapmasknormalmapalpha" "1"
+	"$envmapfresnel" "1"
+	"$envmaptint" "[1.25 1.25 1.25]"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}

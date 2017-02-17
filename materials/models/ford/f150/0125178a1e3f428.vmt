@@ -1,0 +1,24 @@
+vertexlitgeneric
+{
+$baseTexture "models\ford\f150\0125178a1e3f428"
+	"$bumpmap" "models/t733cars/shared/skin_normal"
+	"$nodecal" "1"
+	"$phong" "0" 
+	"$phongboost" "0.08" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+	"$detail" "models/ford/f150/0125178a1e3f428_emis"
+	"$detailscale" "1"
+	"$detailblendfactor" "10"
+	"$detailblendmode" "1"
+
+}

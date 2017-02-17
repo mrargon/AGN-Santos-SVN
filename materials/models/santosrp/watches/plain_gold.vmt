@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/santosrp/watches/plain_gold_dif"
+	$bumpmap "models/santosrp/watches/nobump"
+	$model "1"
+	$surfaceprop "metal"
+
+	$envmap "env_cubemap"
+	$envmaptint "[1  .7  0]"
+	$normalmapalphaenvmapmask "1"
+	$envmapsaturation .3
+	$envmapcontrast .6
+
+//	$phong "1"
+//	$phongexponent "6"
+//	$phongboost "1.5"
+//	$phongtint "[1  .9  .7]"
+//	$phongfresnelranges "[.5 .8 1]"
+}

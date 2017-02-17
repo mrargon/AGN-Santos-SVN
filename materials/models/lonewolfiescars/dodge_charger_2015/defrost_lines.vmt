@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/dodge_charger_2015/defrost_lines"
+	"$alphatest" "1"
+	"$allowalphatocoverage" 1
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

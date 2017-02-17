@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center 0 0 scale 0.6 0.6 rotate 0 translate 0 0"
+
+	"$basetexture" "models/LoneWolfiesCars/mer_c63_amg/leather_holes"
+	"$bumpmap" "models/LoneWolfiesCars/mer_c63_amg/leather_holes_bump"
+	"$normalmapalphaenvmapmask" 1
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" ".04" 
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 4
+	"$colorfix" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1	$colorfix
+			resultVar	$color
+		}
+	}
+}

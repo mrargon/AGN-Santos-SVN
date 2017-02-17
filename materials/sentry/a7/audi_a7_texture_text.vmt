@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/a7/audi_a7_texture_text"
+	"$bumpmap" "sentry/a7/audi_a7_texture_text_nm"
+	"$envmap" env_cubemap
+	"$envmaptint" "[1.25 1.25 1.25]"
+	"$envmapmasknormalmapalpha" "1"
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "2.5"	
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}

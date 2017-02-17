@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+ $basetexture "models/player/_parts/holster/holsters-1"
+ $bumpmap "models/player/_parts/holster/holsters-1_normal"
+ $phong 1
+ $phongboost 0.2
+ $phongexponent 5
+ $phongfresnelranges "[.5 8 31]"
+ $rimlight 1
+ $rimlightexponent 5
+ $rimlightboost "0.2"
+}

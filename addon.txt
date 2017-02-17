@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	"name"				"Counter-Strike : Source Addon (April 2016)"
+	"version"			"1.0"
+	"author_name"			"MrArgon"
+	"author_url"			"http://argongaming.us"
+	"info"				"Server Content for Argon Gaming Network santosrp"
+	"override"				"0"
+}

@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/black"
+               "$nocull" "1"
+	"$nodecal" "1"
+	"$colorfix" "{110 110 110}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/santosrp/key/key_leather_dif"
+	$bumpmap "models/santosrp/key/key_leather_norm"
+	$model "1"
+	$surfaceprop "flesh"
+	$nocull 1
+
+	$phong "1"
+	$phongexponent "5"
+	$phongboost "1"
+	$phongfresnelranges "[.1  .3 1]"
+	$phongtint "[1 .9 .7]"
+}

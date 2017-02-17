@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/96impala/tire"
+	"$blendtintbybasealpha" 1
+	"$bumpmap" "sentry/96impala/tire_nm"
+	"$phong" "1" 
+	"$phongboost" "0.6" 
+	"$phongfresnelranges" "[.05 .5 0]" 
+	"$phongexponent" 10
+
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}

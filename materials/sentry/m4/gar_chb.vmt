@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/m4/gar_chb"
+	"$bumpmap" "sentry/m4/gar_chb_nm"
+	"$nodecal" "1"
+    $phong "1"
+    $phongexponent "5"
+    $phongboost "0.2"
+    $phongfresnelranges "[.05 .3 1]"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}

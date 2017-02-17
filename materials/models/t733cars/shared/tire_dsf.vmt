@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/t733cars/shared/Tire_dsf"
+	"$bumpmap" "models/t733cars/shared/Tire_dsf_nrm"
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+

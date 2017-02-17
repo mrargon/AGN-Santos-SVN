@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "xq/decals/traffic_lines/traffic_arrow_fl"
+	"$translucent" 1
+	"$decal" 1
+	"$decalscale" .15
+	"%keywords" "traffic"
+}

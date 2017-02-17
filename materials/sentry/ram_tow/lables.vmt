@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/ram_tow/lables"
+	"$bumpmap" "sentry/shared/skin_nm"
+	"$phong" "1"
+	"$phongboost" "0.1"
+	"$phongfresnel" "[.2 .5 .1]"
+	"$blendtintbybasealpha" "1"
+}

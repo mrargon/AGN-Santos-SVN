@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/gta5/sheriff/head_diff_000_c_bla"
+	"$halflambert" 1
+}

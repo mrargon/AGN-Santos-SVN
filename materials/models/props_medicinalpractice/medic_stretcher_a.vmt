@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_medicinalpractice/medic_stretcher_a.vtf"
+	"$bumpmap" "models\effects\flat_normal" 
+	"$selfillum" "0"
+
+	// "$phong" "1"
+	// "$phongexponent" "10"
+	// "$phongboost" "4"
+	// "$lightwarptexture" "models/props_medicinalpractice/metal_lightwarp.vtf"	
+	// "$phongfresnelranges"	"[.25 .5 4]"
+	// "$basemapalphaphongmask" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				
+	"$rimlightexponent" "10"
+	"$rimlightboost" "1"				
+}

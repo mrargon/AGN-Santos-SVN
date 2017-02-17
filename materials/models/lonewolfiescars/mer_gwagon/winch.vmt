@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/mer_gwagon/winch"
+	"$bumpmap" "models/LoneWolfiesCars/mer_gwagon/winch_bump"
+
+    	$phong "1"
+    	$phongexponent "20"
+    	$phongboost "0.6"
+    	$phongfresnelranges "[ .2 .2 1]"
+	$nocull "1"
+	$nodecal "1"
+
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+

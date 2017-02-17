@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/santosrp/watches/hour_dif"
+	$bumpmap "models/santosrp/watches/nobump"
+	$alphatest 1
+	$model "1"
+	$surfaceprop "metal"
+}

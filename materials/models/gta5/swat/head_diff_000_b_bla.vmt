@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/GTA5/Swat/head_diff_000_b_bla"
+	"$halflambert" 1
+}

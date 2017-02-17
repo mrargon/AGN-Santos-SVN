@@ -1,0 +1,31 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/dodge_monaco/skin1"
+	"$bumpmap" "models/LoneWolfiesCars/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongexponent" 10
+	"$phongboost"	0.8
+	"$phongfresnelranges" "[1 1 1]"
+	"$rimlight" 1
+	"$rimlightexponent" "10"
+	"$rimlightboost" 0.5
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.07 0.07 0.07]"
+	"$detail" "models/LoneWolfiesCars/shared/paint"
+	"$detailscale" "4"
+	"$detailblendfactor" "0.006"
+	"$detailblendmode" "1"
+	"$normalmapalphaenvmapmask" 0
+	"$colorfix" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1	$colorfix
+			resultVar	$color
+		}
+	}
+}
+
+

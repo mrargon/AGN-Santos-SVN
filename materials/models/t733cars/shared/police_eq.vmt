@@ -1,0 +1,25 @@
+vertexlitgeneric
+{
+$baseTexture "models/t733cars/shared/police_eq"
+	"$bumpmap" "models/t733cars/shared/skin_normal"
+	"$nodecal" "1"
+	"$nocull" "1"
+	"$phong" "0" 
+	"$phongboost" ".15" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 3
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" "3"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+

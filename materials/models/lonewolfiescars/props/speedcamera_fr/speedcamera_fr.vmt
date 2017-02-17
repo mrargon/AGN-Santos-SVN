@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/props/speedcamera_fr/speedcamera_fr"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongexponent" 7
+	"$phongtint" "[0.1 0.1 0.1]"
+	"$phongboost" 12
+	"$phongfresnelranges" "[1 1 1]"
+	"$rimlight" 1
+	"$rimlightboost" 0.5
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.04 0.04 0.04]"
+	"$normalmapalphaenvmapmask" 1
+	"$phongfix" "{1 1 1}"
+	"$nodecal" "1"
+}

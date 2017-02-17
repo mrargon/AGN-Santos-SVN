@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/ram_tow/7490932d"
+	"$bumpmap" "sentry/ram_tow/7490932d_n"
+    	$phong "1"
+    	$phongexponent "3.5"
+    	$phongboost "0.5"
+    	$phongfresnelranges "[.05 .3 1]"
+	"$blendtintbybasealpha" 1
+}

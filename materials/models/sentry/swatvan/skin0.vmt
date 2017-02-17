@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "sentry/shared/skin"
+	"$bumpmap" "sentry/shared/skin_nm"
+    $surfaceprop "metal"
+    $envmap "env_cubemap"
+    $envmaptint "[0.05 0.05 0.06]"
+    $envmapcontrast "1"
+    $envmapsaturation ".5"
+    $envmapfresnel "1"
+    $phong "1"
+    $phongexponent "7"
+    $phongboost "10"
+    $phongfresnelranges "[.05 .3 1]"
+    $phongtint "[.25 0.25 0.3]"
+    $deftint "[.25 0.25 0.3]"
+    "$color2" "[0 0 0]"
+
+
+
+	$detail "sentry/shared/paint"
+	$detailscale "100"
+	$detailblendfactor "0.18"
+	$detailblendmode "1"
+
+}

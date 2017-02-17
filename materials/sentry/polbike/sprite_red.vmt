@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/polbike/sprite_red"
+	"$no_draw" "1"
+}

@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/lonewolfiescars/props/rims/drag_tire_rear"
+	"$bumpmap" "models/lonewolfiescars/shared/skin_nm"
+
+	"$normalmapalphaenvmapmask" 1
+
+	"$phong" "1"
+	"$phongexponent" "9"
+	"$phongboost" "2.5"	
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$nodecal" "1"
+	"$colorfix" "{180 180 180}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

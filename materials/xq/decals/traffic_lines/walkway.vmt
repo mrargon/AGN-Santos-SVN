@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "xq/decals/traffic_lines/walkway"
+	"$surfaceprop" "concrete"
+	"$translucent" 1
+	"$decal" 1
+	"$decalscale" .25
+	"%keywords" "traffic"
+	$detail "xq/decals/traffic_lines/walkway"
+	$detailscale 1
+	$detailblendmode 1
+	$detailblendfactor 0.2
+}

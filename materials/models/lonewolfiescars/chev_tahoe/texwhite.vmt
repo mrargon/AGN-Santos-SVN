@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .3 .3 scale 50 50 rotate 0 translate 0 0"
+
+	"$basetexture" "models/LoneWolfiesCars/chev_tahoe/texwhite"
+	"$bumpmap" "models/LoneWolfiesCars/shared/skin_nm"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 20
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.05 0.05 0.05]"
+	"$normalmapalphaenvmapmask" 1
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

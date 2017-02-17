@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/freeman/leaf_1_diffuse"	
+	"$translucent" "1"
+	"$alphatest" "1"
+	"$nocull" "1"
+}

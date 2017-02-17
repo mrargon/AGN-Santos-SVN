@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "noble/trailermessageboard/screen3.vtf"
+	$bumpmap "noble/trailermessageboard/bump.vtf"
+
+	$selfillum "1"
+	$selfillumtint "[10 7 2]"
+
+	"$phong"	"1"
+	"$phongexponent"	"10"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[.5 0 1.2]"
+	"$halflambert" "1"
+//	"$rimlight" "1"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" "0.4"
+		}
+	}
+
+
+}

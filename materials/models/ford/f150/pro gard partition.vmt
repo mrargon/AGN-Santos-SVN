@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+$baseTexture "models\ford\f150\pro gard partition"
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+

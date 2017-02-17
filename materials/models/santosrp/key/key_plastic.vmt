@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/santosrp/key/key_plastic_dif"
+	$bumpmap "models/santosrp/key/key_plastic_norm"
+	$model "1"
+	$surfaceprop "plastic"
+	$nocull 1
+
+	$phong "1"
+	$phongexponent "2"
+	$phongboost "1"
+	$phongfresnelranges "[.2 .5 1]"
+}

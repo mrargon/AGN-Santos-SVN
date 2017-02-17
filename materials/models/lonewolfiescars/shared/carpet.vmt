@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/carpet"
+	"$blendtintbybasealpha" 1
+	"$bumpmap" "models/LoneWolfiesCars/shared/carpet_bump"
+	"$nodecal" "1"
+}

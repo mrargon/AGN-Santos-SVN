@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/santosrp/watches/glass_dif"
+//	$bumpmap "models/santosrp/watches/nobump"
+	$translucent 1
+	$model "1"
+	$surfaceprop "metal"
+
+	$envmap "env_cubemap"
+//	$envmapmask "models/OCDEV/cars/generic/white"
+//	$envmaptint "[.5 .5 .5]"
+//	$envmapcontrast "1"
+//	$envmapsaturation ".5"
+	$envmapfresnel "1"
+//	$envmapfresnelminmaxexp "[.01 .5 1]"
+
+	$phong "1"
+	$phongexponent "20"
+	$phongboost "1"
+	$phongfresnelranges "[.5 1 2]"
+}

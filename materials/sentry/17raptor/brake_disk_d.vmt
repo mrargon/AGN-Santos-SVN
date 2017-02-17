@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/17raptor/brake_disk_d"
+	"$bumpmap" "sentry/17raptor/brake_disk_nm"
+    $surfaceprop "metal"
+	"$envmap" env_cubemap
+	"$envmaptint" "[0.025 0.025 0.025]"
+	"$envmapmasknormalmapalpha" "1"
+    $phong "1"
+    $phongexponent "15"
+    $phongboost ".2"
+    $phongfresnelranges "[.05 .3 1]"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}

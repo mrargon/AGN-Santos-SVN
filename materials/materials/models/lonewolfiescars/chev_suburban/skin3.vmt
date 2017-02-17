@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/chev_suburban/skin3"
+	"$bumpmap" "models/LoneWolfiesCars/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongexponent" 15
+	"$phongboost"	0.2
+	"$phongfresnelranges" "[1 1 1]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.17 0.17 0.17]"
+	"$normalmapalphaenvmapmask" 1
+	"$detail" "models/LoneWolfiesCars/shared/paint"
+	"$detailscale" "10"
+	"$detailblendfactor" "0.006"
+	"$detailblendmode" "1"
+}

@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/old_wood"
+	"$bumpmap" "models/lonewolfiescars/shared/old_wood_bump"
+	"$nodecal" "1"
+	"$blendtintbybasealpha" 1
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "1"
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 50
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+
+
+	"$normalmapalphaenvmapmask" 1
+
+}

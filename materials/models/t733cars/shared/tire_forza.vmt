@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/t733cars/shared/Tire_Forza"
+	"$bumpmap" "models/t733cars/shared/Tire_Forza_nm"
+	"$blendtintbybasealpha" 1
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.1"	
+	"$phongfresnelranges"	"[1 1 1]"
+	"$nodecal" "1"
+}

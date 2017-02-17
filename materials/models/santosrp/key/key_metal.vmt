@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/santosrp/key/key_metal_dif"
+	$bumpmap "models/santosrp/key/nobump"
+	$model "1"
+	$surfaceprop "metal"
+
+	$envmap "env_cubemap"
+	$envmaptint "[.5  .5  .5]"
+	$normalmapalphaenvmapmask "1"
+
+	$phong "1"
+	$phongexponent "3"
+	$phongboost "1.5"
+	$phongfresnelranges "[.5 .8 1]"
+}

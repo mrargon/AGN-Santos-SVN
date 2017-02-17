@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/skin"
+	"$selfillum" 0
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
